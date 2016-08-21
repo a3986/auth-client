@@ -30887,7 +30887,7 @@
 
 	function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
-	var ROOT_URL = 'http://localhost:3090';
+	var ROOT_URL = 'https://sociomate-server.herokuapp.com';
 
 	function signinUser(_ref) {
 	  var email = _ref.email;
