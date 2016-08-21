@@ -7,8 +7,9 @@ import {
   FETCH_MESSAGE
 } from './types';
 
-const ROOT_URL = 'http://localhost:3090';
-
+//const ROOT_URL = 'http://localhost:3090';
+//https://sociomate-server.herokuapp.com/
+const ROOT_URL = 'https://sociomate-server.herokuapp.com';
 export function signinUser({ email, password }) {
   return function(dispatch) {
     // Submit email/password to the server
