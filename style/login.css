@@ -1,0 +1,162 @@
+.clear:after {
+    content: " ";
+    display: block;
+    clear: both;
+}
+
+.login-parent
+{
+	background-image: -webkit-linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0)), url(images/apple-desk-laptop-working.jpg);
+    background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0)), url(images/apple-desk-laptop-working.jpg);
+   /* 
+    background-image: -webkit-linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(images/wood-cube-abc-cube-letters-48898.jpeg);
+    background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(images/wood-cube-abc-cube-letters-48898.jpeg);
+     */
+
+background-image: -webkit-linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(images/skyline-buildings-new-york-skyscrapers.jpg);
+    background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(images/skyline-buildings-new-york-skyscrapers.jpg);
+    
+     
+    
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    background-attachment: fixed;
+}
+
+.signup-parent
+{
+	/*
+    background-image: -webkit-linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(images/wood-cube-abc-cube-letters-48898.jpeg);
+    background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(images/wood-cube-abc-cube-letters-48898.jpeg);
+     
+
+background-image: -webkit-linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(images/skyline-buildings-new-york-skyscrapers.jpg);
+    background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(images/skyline-buildings-new-york-skyscrapers.jpg);
+    */
+/*
+    background-image: -webkit-linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(images/pexels-photo-128299.jpeg);
+    background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(images/pexels-photo-128299.jpeg);*/
+
+     
+    background-image: -webkit-linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0)), url(images/apple-desk-laptop-working.jpg);
+    background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0)), url(images/apple-desk-laptop-working.jpg);
+   
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    background-attachment: fixed;
+}
+
+.login-form-parent
+{
+	max-width: 550px;
+	margin: 0px auto; 
+
+}
+
+.login-nav-buttons
+{
+	float: right;
+	margin-top: 20px;
+}
+.login-account-text
+{
+	margin-right: 15px;
+}
+
+.login-header .btn-signup{
+	margin-right: 15px;
+}
+
+.account-title-login
+{
+    /*position: absolute;
+    left: 50%;
+    transform: translate(-50%,-50%);*/
+}
+
+.btn-signin{
+    display: inline-block;
+    padding: 10px 30px;
+    font-weight: 300;
+    text-decoration: none;
+    border-radius: 5px;
+    -webkit-transition: background-color 0.2s, border 0.2s, color 0.2s;
+    transition: background-color 0.2s, border 0.2s, color 0.2s;
+    float: right;
+}
+
+.btn-signin{
+    background-color: #3498db;
+    border: 1px solid #3498db;
+    color: #fff;
+    margin-right: 0px;
+}
+
+.login-parent label,.signup-parent label
+{
+	color:white;
+}
+
+.account-title-parent
+{
+	/*min-height: 80px;	
+	position: relative;*/
+}
+
+
+.ion-log-in:before{
+	color:#3498db;
+	text-align: center;
+	font-size: 45px;
+	display: block;
+}
+
+.account-title {
+    /*color: #fff;*/
+    color:#3498db;
+    font-size: 45px;
+   /* padding: 0 0 1em;
+     margin: 0 0 1em;*/
+   padding:0;
+  margin: 0 0 10px;
+    position: relative;
+    font-weight: 100;
+    line-height: 1.2;
+    text-align: center;
+}
+
+/*.account-title:after {
+    content: "";
+    background: rgba(255,255,255,.7);
+    width: 70px;
+    position: absolute;
+    left: 50%;
+    margin-left: -35px;
+    bottom: 0;
+    height: 2px;
+}*/
+
+.account-form-ico:before {
+    position: absolute;
+    left: 0;
+    top: 1px;
+    height: calc(100% - 2px);
+    width: 3rem;
+    text-align: center;
+    line-height: 3rem;
+    border-right: 1px solid #a9aaab;
+    color:#a9aaab;
+    font-size: 30px;
+}
+
+.form-group
+{
+	position: relative;
+}
+
+.form-control
+{
+	padding: 1rem 1rem 1rem 4rem;
+}
