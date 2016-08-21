@@ -10,7 +10,8 @@
     "test:watch": "npm run test -- --watch"
   },
   "engines": {
-    "node": "4.2.3"
+    "node": "4.2.3",
+    "npm":"2.14.7"
   },
   "author": "",
   "license": "ISC",
